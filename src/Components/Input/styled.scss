@@ -1,0 +1,29 @@
+
+.wrapper {
+	margin: 5% 0;
+	padding-left: 40px;
+	display: flex;
+	align-items: center;
+	h1 {
+		margin: 0;
+		font-size: 14px;
+	}
+}
+
+.text-input {
+	width: 170px;
+	height: 22px;
+	padding: 2% 5%;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 20px;
+	outline: none;
+}
+
+.description {
+	margin: 0;
+	padding-left: 5%;
+	font-size: 18px;
+	font-weight: bold;
+}
+

@@ -1,0 +1,47 @@
+
+.info-btn {
+	width: 20px;
+	height: 20px;
+	margin-left: 3%;
+	border: 1px solid lightgray;
+	border-radius: 50%;
+	background-color: transparent;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	i {
+		font-style: normal;
+	}
+}
+
+.popup {
+	width: 300px;
+	padding: 20px;
+	position: absolute;
+	background-color: cornflowerblue;
+	top: 32px;
+	right: -67px;
+	z-index: 2;
+	visibility: hidden;
+	::before {
+		content: ''; 
+    position: absolute;
+		top: -10px;
+		left: 0; 
+    border: 10px solid transparent;
+    border-left: 10px solid cornflowerblue;
+	}
+	&-active {
+		visibility: visible;
+	}
+}
+
+.popup-text {
+	width: 100%;
+	margin: 0;
+	white-space: normal;
+	color: #fff;
+	font-weight: 600;
+	text-align: initial;
+}
+

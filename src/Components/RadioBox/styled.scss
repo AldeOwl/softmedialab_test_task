@@ -1,8 +1,9 @@
-.Radiobox {
+.radiobox {
   margin: 2%;
 	display: flex;
 	justify-content: flex-start;
   white-space: nowrap;
+  position: relative;
   @media screen and (max-width: 790px){
      margin: 15px 0;
    }

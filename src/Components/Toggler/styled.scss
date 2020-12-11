@@ -1,0 +1,43 @@
+
+.wrapper {
+	margin: 5% 0;
+	padding-left: 40px;
+	display: flex;
+	align-items: flex-end;
+	h1 {
+		margin: 0;
+		font-size: 14px;
+	}
+}
+
+.toggler-btn {
+  width: 50px;
+	height: 25px;
+	margin: 0 3%;
+  display: flex;
+  justify-content: space-around;
+  transition: .2s linear;
+	background-color: grey;
+	border-radius: 15px;
+	position: relative;
+	cursor: pointer;
+	span {
+		width: 25px;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		color: #fff;
+		text-align: center;
+		background-color: #fff;
+		border-radius: 50%;
+		transition: all .2s linear;
+	}
+}
+
+.active {
+	background-color: orange;
+	span {
+		left: 50%;
+	}
+}
+
